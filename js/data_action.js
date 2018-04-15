@@ -169,7 +169,7 @@ data_action = [
         icon: "embrassed-energy",
         subtitle: "Algumas características usam ações",
         description: "Utilizar uma característica de classe ou de raça que usa uma ação",
-        reference: "Veja a página da classe para mais informações..",
+        reference: "Veja a página da classe para mais informações.",
         bullets: [
 
         ]
