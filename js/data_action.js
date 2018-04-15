@@ -96,7 +96,7 @@ data_action = [
     {
         title: "Ajudar",
         icon: "telepathy",
-        subtitle: "Conceder uma vantagem a um aliado",
+        subtitle: "Conceder vantagem a aliados",
         description: "Conceder uma vantagem a um aliado ou um teste de habilidade ou ataque",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -108,7 +108,7 @@ data_action = [
     {
         title: "Usar objeto",
         icon: "snatch",
-        subtitle: "Interagir ou usar habilidades especiais",
+        subtitle: "Interagir ou usar habilidade",
         description: "Interagir com um segundo objeto ou usar uma habilidade especial de objeto",
         reference: "PHB, pg. 193.",
         bullets: [
@@ -144,7 +144,7 @@ data_action = [
     {
         title: "Procurar",
         icon: "magnifying-glass",
-        subtitle: "Dedicar sua atenção para encontrar algo",
+        subtitle: "Dedicar atenção para encontrar algo",
         description: "Dedicar sua atenção para encontrar algo",
         reference: "PHB, pg. 193.",
         bullets: [
@@ -169,7 +169,7 @@ data_action = [
         icon: "embrassed-energy",
         subtitle: "Algumas características usam ações",
         description: "Utilizar uma característica de classe ou de raça que usa uma ação",
-        reference: "See class page for more information.",
+        reference: "Veja a página da classe para mais informações..",
         bullets: [
 
         ]
