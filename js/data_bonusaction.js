@@ -1,34 +1,34 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "Ataque com duas armas",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        subtitle: "Usar com a ação Ataque",
+        description: "Ataca com a arma que está na outra mão",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "Usável somente se você usar a ação <i>Ataque</i> e atacar com uma arma corpo-a-corpo leve que estiver segurando em uma mão.",
+            "Realiza um ataque simples com uma arma corpo-a-corpo leve diferente que estiver segurando com a outra mão.",
+            "Você não adiciona o modificador de habilidade ao dano desse ataque extra, a menos que o modificador seja negativo.",
+            "Se a arma possuir a propriedade arremesso, você pode arremessá-la em vez de realizar um ataque corpo-a-corpo com ela."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Conjurar uma magia",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
+        subtitle: "Tempo de conjuração de 1 ação bônus",
+        description: "Conjura uma magia com tempo de conjuração de 1 ação bônus",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Você não pode conjurar uma magia com sua ação e uma magia diferente com sua ação bônus no mesmo turno, exceto se a ação for usada para conjurar um truque.",
+            "Para mais detalhes, ver a ação <i>Conjurar uma magia</i>."
         ]
     },
     {
-        title: "Use class feature",
+        title: "Usar característica de classe",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "Algumas características usam ações bônus",
+        description: "Utilizar uma característica de classe ou de raça que usa uma ação bônus",
+        reference: "Veja a página da classe para mais informações.",
         bullets: [
 
         ]
