@@ -1,12 +1,12 @@
 data_action = [
     {
-        title: "Attack",
+        title: "Atacar",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
+        subtitle: "Ataque corpo-a-corpo ou a distância",
+        description: "Realizar um ataque corpo-a-corpo ou a distância com sua arma",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
+            "Algumas características, como o <i>Ataque Extra</i> do lutador, te permite realizar mais de um ataque com esta ação. Cada ataque é uma rolagem diferente e pode focar em diferentes criaturas. Você pode mover-se entre esses ataques.",
             "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
             "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
             "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
@@ -14,10 +14,10 @@ data_action = [
         ]
     },
     {
-        title: "Grapple",
+        title: "Agarrar",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "Ataque corpo-a-corpo especial",
+        description: "Tentar segurar uma criatura ou lutar com ela",
         reference: "PHB, pg. 195.",
         bullets: [
             "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
@@ -27,10 +27,10 @@ data_action = [
         ]
     },
     {
-        title: "Shove",
+        title: "Empurrar",
         icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
+        subtitle: "Ataque corpo-a-corpo especial",
+        description: "Empurra uma criatura, seja para derrubá-la ou para jogá-la longe de você",
         reference: "PHB, pg. 195.",
         bullets: [
             "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
@@ -40,10 +40,10 @@ data_action = [
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Conjurar uma magia",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
+        subtitle: "Tempo de conjuração de 1 ação",
+        description: "Conjura uma magia com um tempo de conjuração de 1 ação",
         reference: "PHB, pg. 192.",
         bullets: [
             "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
@@ -53,40 +53,40 @@ data_action = [
         ]
     },
     {
-        title: "Dash",
+        title: "Disparada",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
+        subtitle: "Dobra a velocidade de movimento",
+        description: "Ganha movimento extra para o turno atual",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The increase equals your speed, after applying any modifiers."
+            "O aumento é igual a sua velocidade, depois de aplicar quaisquer modificadores."
         ]
     },
     {
-        title: "Disengage",
+        title: "Desengajar",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
+        subtitle: "Previne ataques de oportunidade",
+        description: "O seu movimento não provoca ataques de oportunidade para o resto do turno",
         reference: "PHB, pg. 192.",
         bullets: [
         ]
     },
     {
-        title: "Dodge",
+        title: "Esquivar",
         icon: "aura",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        subtitle: "Aumentar defesas",
+        description: "Focar inteiramente em evitar ataques",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
+            "Até o começo do seu próximo turno, qualquer rolagem de ataque feita contra você tem desvantagem se você puder ver o atacante, e você faz and you make Dexterity saving throws with advantage.",
             "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
         ]
     },
     {
-        title: "Escape",
+        title: "Escapar",
         icon: "manacles",
-        subtitle: "Escape a grapple",
-        description: "Escape a grapple",
+        subtitle: "Escapar de um agarrão",
+        description: "Escapar de um agarrão",
         reference: "PHB, pg. 195.",
         bullets: [
             "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
@@ -94,10 +94,10 @@ data_action = [
         ]
     },
     {
-        title: "Help",
+        title: "Ajudar",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
-        description: "Grant an ally advantage on an ability check or attack",
+        subtitle: "Conceder uma vantagem a um aliado",
+        description: "Conceder uma vantagem a um aliado ou um teste de habilidade ou ataque",
         reference: "PHB, pg. 192.",
         bullets: [
             "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
@@ -106,10 +106,10 @@ data_action = [
         ]
     },
     {
-        title: "Use Object",
+        title: "Usar objeto",
         icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
+        subtitle: "Interagir ou usar habilidades especiais",
+        description: "Interagir com um segundo objeto ou usar uma habilidade especial de objeto",
         reference: "PHB, pg. 193.",
         bullets: [
             "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
@@ -117,10 +117,10 @@ data_action = [
         ]
     },
     {
-        title: "Use shield",
+        title: "Usar escudo",
         icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
+        subtitle: "Equipar ou desequipar um escudo",
+        description: "Equipar ou desequipar um escudo",
         reference: "PHB, pgs. 144-146.",
         bullets: [
             "A shield always takes an action to equip or unequip.",
@@ -128,10 +128,10 @@ data_action = [
         ]
     },
     {
-        title: "Hide",
+        title: "Esconder",
         icon: "hood",
-        subtitle: "",
-        description: "Attempt to hide",
+        subtitle: "Tentar se esconder",
+        description: "Tentar se esconder",
         reference: "PHB, pg. 192.",
         bullets: [
             "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
@@ -142,20 +142,20 @@ data_action = [
         ]
     },
     {
-        title: "Search",
+        title: "Procurar",
         icon: "magnifying-glass",
-        subtitle: "",
-        description: "Devote your attention to finding something",
+        subtitle: "Dedicar sua atenção para encontrar algo",
+        description: "Dedicar sua atenção para encontrar algo",
         reference: "PHB, pg. 193.",
         bullets: [
             "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
         ]
     },
     {
-        title: "Ready",
+        title: "Preparar",
         icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
+        subtitle: "Escolher gatilho e ação",
+        description: "Escolher um gatilho e uma reação de resposta",
         reference: "PHB, pg. 193.",
         bullets: [
             "First, you decide what perceivable circumstance will trigger your reaction.",
@@ -165,20 +165,20 @@ data_action = [
         ]
     },
     {
-        title: "Use class feature",
+        title: "Usar característica",
         icon: "embrassed-energy",
-        subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
+        subtitle: "Algumas características usam ações",
+        description: "Utilizar uma característica de classe ou de raça que usa uma ação",
         reference: "See class page for more information.",
         bullets: [
 
         ]
     },
     {
-        title: "Improvise",
+        title: "Improvisar",
         icon: "juggler",
-        subtitle: "Any action not on this list",
-        description: "Perform any action you can imagine",
+        subtitle: "Qualquer ação fora dessa lista",
+        description: "Realizar qualquer ação que você imaginar",
         reference: "PHB, pg. 193.",
         bullets: [
             "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
