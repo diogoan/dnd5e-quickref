@@ -3,20 +3,20 @@ data_environment_obscurance = [
         title: "Escuridão leve",
         icon: "bleeding-eye",
         subtitle: "Desvantagem em Percepção",
-        description: "Dim light, patchy fog, moderate foliage",
+        description: "Luz difusa, névoa irregular, folhagem moderada",
         reference: "PHB, pg. 185.",
         bullets: [
-            "Creatures have <b>disadvantage on Wisdom (Perception)</b> checks that rely on sight."
+            "Criaturas possuem desvantagem em <b>testes de Sabedoria (Percepção)</b> que dependem da luz."
         ]
     },
     {
         title: "Escuridão densa",
         icon: "lightning-tear",
         subtitle: "Visão bloqueada",
-        description: "Darkness, opaque fog, dense foliage",
+        description: "Escuridão, névoa opaca, folhagem densa",
         reference: "PHB, pg. 185.",
         bullets: [
-            "A creature in a heavily obscured area effectively suffers from the <b>blinded condition</b>."
+            "Uma criatura em uma área fortemente obscurecida sofre efetivamente de uma <b>condição de cegueira</b>."
         ]
     }
 ]
@@ -26,33 +26,33 @@ data_environment_light = [
         title: "Luz plena",
         icon: "star-pupil",
         subtitle: "Visão normal",
-        description: "Bright light lets most creatures see normally",
-        reference: "PHB, pg. 183.",
+        description: "Luz brilhante permite que a maioria das criaturas enxerguem normalmente",
+        reference: "PHB, pg. 185.",
         bullets: [
-            "Gloomy days still provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius."
+            "Mesmo dias nublados ainda fornecem luz brilhante, assim como tochas, lanternas, fogueiras e outras fontes de iluminação dentro de um raio específico."
         ]
     },
     {
         title: "Penumbra",
         icon: "semi-closed-eye",
         subtitle: "Escuridão leve",
-        description: "Dim light, also called shadows",
-        reference: "PHB, pg. 183.",
+        description: "Luz fraca, também conhecida como sombra",
+        reference: "PHB, pg. 185.",
         bullets: [
-            "Creates a <b>lightly obscured</b> area.",
-            "An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness.",
-            "The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light."
+            "Cria uma área <b>levemente obscurecida</b>.",
+            "Uma área de penumbra geralmente é um limite entre uma fonte de luz brilhante, como uma tocha, e a escuridão em volta dela.",
+            "A luz suave do nascer e do pôr do sol também contam como penumbra. A lua cheia particularmente brilhante pode banhar a terra com penumbra."
         ]
     },
     {
         title: "Escuridão total",
         icon: "worried-eyes",
         subtitle: "Escuridão densa",
-        description: "Darkness creates a heavily obscured area",
+        description: "Escuridão cria uma área fortemente obscurecida",
         reference: "PHB, pg. 185.",
         bullets: [
-            "Creates a <b>heavily obscured</b> area.",
-            "Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness."
+            "Cria uma área <b>fortemente obscurecida</b>.",
+            "Personagens enfrentam escuridão ao ar livre à noite (mesmo na maioria das noites com luar), dentro dos limites de uma masmorra ou de uma sala subterrânea, ou em uma ára de escuridão mágica."
         ]
     }
 ]
@@ -62,33 +62,33 @@ data_environment_vision = [
         title: "Percepção às cegas",
         icon: "one-eyed",
         subtitle: "Perceber sem visão",
-        description: "Perceive your surroundings without relying on sight, within a certain radius",
+        description: "Perceber o seu entorno sem depender da luz, dentro de um raio específico",
         reference: "PHB, pg. 185.",
         bullets: [
-            "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense."
+            "Criaturas sem olhos, como limos, e criaturas com ecolocalização ou sentidos elevados, como morcegos e dragões verdadeiros, possuem esse sentido."
         ]
     },
     {
         title: "Visão no escuro",
         icon: "semi-closed-eye",
         subtitle: "Visão limitada no escuro",
-        description: "A creature with Darkvision can see better in the dark or low light conditions, within a certain radius",
+        description: "Uma criatura com Visão no escuro pode enxergar melhor no escuro ou em condições de pouca luz, dentro de um raio específico",
         reference: "PHB, pg. 187.",
         bullets: [
-            "Within a specified range, a creature with darkvision can <b>see in darkness as if the darkness were dim light</b>, so areas of darkness are only lightly obscured as far as that creature is concerned.",
-            "However, the creature can’t discern color in darkness, only shades of gray.",
-            "Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision."
+            "Dentro de um alcance específico, uma criatura com Visão no escuro pode <b>enxergar na penumbra como se fosse luz plena e na escuridão como se fosse penumbra</b>. Assim, áreas de escuridão são apenas levemente obscurecidas, no que diz respeito a aquela criatura.",
+            "No entanto, a criatura não pode discernir cor na escuridão, somente tons de cinza.",
+            "Muitas criaturas nos mundos de D&D, especialmente aquelas que vivem no subsolo, possuem visão no escuro."
         ]
     },
     {
         title: "Visão verdadeira",
         icon: "eye-shield",
         subtitle: "Enxergar na escuridão",
-        description: "A creature with truesight can see everything in its true form, independent of the environment",
+        description: "Uma criatura com visão verdadeira pode ver tudo em sua forma real, independente do ambiente",
         reference: "PHB, pg. 187.",
         bullets: [
-            "A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic.",
-            "Furthermore, the creature can see into the Ethereal Plane."
+            "Uma criatura com visão verdadeira pode, dentro de um alcance específico, enxergar na escuridão total normal e mágica, ver criaturas e objetos invisíveis, detectar automaticamente ilusões visuais e ter sucesso em testes de resistência contra elas, também pode perceber a forma original de um metamorfo ou de uma criatura que é transformada por magia.",
+            "Além disso, a criatura pode ver no Plano Etéreo."
         ]
     }
 ]
@@ -98,35 +98,35 @@ data_environment_cover = [
         title: "Meia cobertura",
         icon: "broken-shield",
         subtitle: "Mureta, mobília grande",
-        description: "A target has half cover if an obstacle blocks at least half of its body",
+        description: "Um alvo tem meia-cobertura quando um obstáculo bloqueia pelo menos metade de seu corpo",
         reference: "PHB, pg. 198.",
         bullets: [
-            "The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.",
-            "A target with half cover has a <b>+2 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "O obstáculo pode ser uma mureta, uma parte de uma mobília grande, um tronco de árvore estreito ou uma criatura, seja ela inimiga ou amigável.",
+            "Um alvo com meia-cobertura tem <b>+2 de bônus na CA e nos testes de resistência de Destreza</b>.",
+            "Se o alvo está atrás de múltiplas fontes de cobertura, apenas aquela de maior grau se aplica, os graus de cobertura não se somam."
         ]
     },
     {
         title: "Três-quartos de cobertura",
         icon: "cracked-shield",
         subtitle: "Grade levadiça, seteira",
-        description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
+        description: "Um alvo tem cobertura superior quando, pelo menos, três quartos do seu corpo é coberto por um obstáculo",
         reference: "PHB, pg. 198.",
         bullets: [
-            "The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.",
-            "A target with three-quarters cover has a <b>+5 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "O obstáculo pode ser uma grade levadiça, uma seteira ou um tronco de árvore mais robusto.",
+            "Um alvo com três-quartos de cobertura tem <b>+5 de bônus na CA e nos testes de resistência de Destreza</b>.",
+            "Se o alvo está atrás de múltiplas fontes de cobertura, apenas aquela de maior grau se aplica, os graus de cobertura não se somam."
         ]
     },
     {
         title: "Cobertura total",
         icon: "shield",
         subtitle: "Completamente escondido",
-        description: "A target has total cover if it is completely concealed by an obstacle",
+        description: "Um alvo tem cobertura total quando está completamente escondido por um obstáculo",
         reference: "PHB, pg. 198.",
         bullets: [
-            "A target with total cover <b>can’t be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "Um alvo com cobertura total <b>não pode ser alvo direto</b> de um ataque ou de uma magia. No entanto, algumas magias podem atingi-lo ao incluí-lo na área de seu efeito.",
+            "Se o alvo está atrás de múltiplas fontes de cobertura, apenas aquela de maior grau se aplica, os graus de cobertura não se somam."
         ]
     }
 ]
@@ -136,20 +136,23 @@ data_environment_other = [
         title: "Queda",
         icon: "falling",
         subtitle: "Queda de uma grande altura",
-        description: "Uma criatura sofre 1d6 de dano de concussão para cada 3m de queda",
+        description: "Uma queda de uma grande altura que pode causar danos de concussão",
         reference: "PHB, pg. 185.",
         bullets: [
+            "Uma criatura sofre 1d6 de dano de concussão para cada 3m de queda.",
             "O dano máximo de uma queda é de até 20d6 (equivalente a 60 metros).",
-            "A criatura ficará caida no chão, a menos que ela evite sofrer o dano da queda."
+            "Após a queda, a criatura ficará caida no chão, a menos que ela evite sofrer o dano da queda.",
+            "O jogador pode tentar realizar um teste de Força (Atletismo) ou Destreza (Acrobacia) para evitar uma queda (segurando-se em algo ou mantendo-se equilibrado), realizar um salto ou acrobacia de forma bem-sucedida ou permanecer de pé em uma situação complicada."
         ]
     },
     {
         title: "Asfixia",
         icon: "drowning",
         subtitle: "Não conseguir respirar",
-        description: "Uma criatura pode segurar sua respiração por um número de minutos igual a 1 + seu modificador de Constituição (mínimo de 30 segundos).",
+        description: "Capacidade de uma criatura ficar sem respirar durante um período",
         reference: "PHB, pg. 185.",
         bullets: [
+            "Uma criatura pode segurar sua respiração por um número de minutos igual a 1 + seu modificador de Constituição (mínimo de 30 segundos).",
             "Quando uma criatura ficar sem respirar, ela pode sobreviver por um número de rodadas igual ao seu modificador de Constituição (mínimo 1 rodada).",
             "No início do seu próximo turno, ela cai a 0 pontos de vida e está morrendo.",
             "Se você não puder respirar ou estiver sufocando, você não pode recuperar pontos de vida ou se estabilizar até poder respirar novamente."
