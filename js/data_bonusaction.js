@@ -1,6 +1,6 @@
 data_bonusaction = [
     {
-        title: "Ataque com duas armas",
+        title: "Combater com duas armas",
         icon: "crossed-swords",
         subtitle: "Usar com a ação Ataque",
         description: "Ataca com a arma que está na outra mão",

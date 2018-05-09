@@ -1,8 +1,8 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
+        title: "Ataque de oportunidade",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
+        subtitle: "O inimigo sai do seu alcance",
         description: "You can rarely move heedlessly past your foes without putting yourself in danger",
         reference: "PHB, pg. 195.",
         bullets: [
@@ -13,9 +13,9 @@ data_reaction = [
         ]
     },
     {
-        title: "Readied action",
+        title: "Ação preparada",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
+        subtitle: "Parte da sua ação Preparar",
         description: "Execute the reaction specified by your Ready action",
         reference: "PHB, pg. 193.",
         bullets: [
@@ -23,9 +23,9 @@ data_reaction = [
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Conjurar uma magia",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
+        subtitle: "Tempo de conjuração de 1 reação",
         description: "Cast a spell with a casting time of 1 reaction",
         reference: "PHB, pg. 192.",
         bullets: [
