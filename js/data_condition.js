@@ -6,9 +6,9 @@ data_condition = [
         description: "Você está agarrado",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "Seu deslocamento se torna 0, e você não pode se beneficiar de qualquer bônus em seu deslocamento.",
+            "A condição encerra caso a criatura que a agarrou fique incapacitada.",
+            "A condição se encerra se um efeito remover a criatura agarrada do alcance da criatura que a agarrou ou do efeito que causa a condição."
         ]
     },
     {
@@ -19,7 +19,7 @@ data_condition = [
         reference: "PHB, pg. 291.",
         bullets: [
             "Você sofre desvantagem em testes de habilidade e jogadas de ataque enquanto a fonte do seu medo estiver em sua linha de visão.",
-            "Você não pode se mover voluntariamente para uma posição que a faça terminar o turno mais próxima da sua fonte de medo do que sua posição inicial.."
+            "Você não pode se mover voluntariamente para uma posição que a faça terminar o turno mais próxima da sua fonte de medo do que sua posição inicial."
         ]
     },
     {
@@ -29,9 +29,9 @@ data_condition = [
         description: "Você está desnorteado",
         reference: "PHB, pg. 291.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Você está incapacitado, não pode se mover e somente pode falar hesitantemente.",
+            "Jogadas de ataque contra você possuem vantagem.",
+            "Você falha automaticamente em testes de resistência de Força e Destreza."
         ]
     },
     {
@@ -41,9 +41,9 @@ data_condition = [
         description: "Você está no chão",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "Sua única opção de movimento é rastejar, a menos que se levante.",
+            "Você possui desvangagem em jogadas de ataque.",
+            "Jogadas de ataque contra você possuem vantagem se o atacante estiver a 1,5 metro de você. De outra maneira, a jogada de ataque possui desvantagem."
         ]
     },
     {
@@ -76,19 +76,19 @@ data_condition = [
         description: "Você é afetado por um veneno",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "Você possui desvantagem em jogadas de ataque e testes de habilidade."
         ]
     },
     {
         title: "Exaustão",
         icon: "crawl",
         subtitle: "Você está sem forças",
-        description: "Exhaustion is measured in six levels",
+        description: "A exaustão é medida em seis níveis",
         reference: "PHB, pg. 292.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink."
+            "<table><tr><th>Nível</th><th></th><th></th><th style='text-align:left'>Efeito</th></tr><tr><td>1</td><td></td><td></td><td>Desvantagem em testes de habilidade</td></tr><tr><td>2</td><td></td><td></td><td>Deslocamento reduzido à metade</td></tr><tr><td>3</td><td></td><td></td><td>Desvantagem nas jogadas de ataque e testes de resistência</td></tr><tr><td>4</td><td></td><td></td><td>Máximo de pontos de vida reduzido à metade</td></tr><tr><td>5</td><td></td><td></td><td>Deslocamento reduzido à 0</td></tr><tr><td>6</td><td></td><td></td><td>Morte</td></tr></table>",
+            "Você não sofre apenas o efeito do seu nível atual de exaustão, mas de todos os níveis anteriores.",
+            "Terminar um descanso longo reduz a exaustão de uma criatura em 1 nível, contanto que ela também tenha ingerido um pouco de água e comida."
         ]
     },
     {
@@ -98,10 +98,10 @@ data_condition = [
         description: "Você está contido",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
+            "Seu deslocamento se torna 0, e você não pode se beneficiar de qualquer bônus em seu deslocamento.",
+            "Jogadas de ataque contra você possuem vantagem.",
+            "Você sofre desvantagem em jogadas de ataque.",
+            "Você sofre desvantagem em testes de resistência de Destreza."
         ]
     },
     {
@@ -120,11 +120,11 @@ data_condition = [
         description: "Você está desacordado",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "You drop whatever you're holding and fall prone.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
+            "Você está incapacitado, não pode se mover ou falar e não tem ciência de seus arredores.",
+            "Você larga tudo que estiver segurando e fica caído.",
+            "Você falha automaticamente em testes de resistência de Força ou Destreza.",
+            "Jogadas de ataque contra você possuem vantagem.",
+            "Qualquer ataque que o atinja é um acerto crítico, se o atacante estiver a 1,5 metro de você."
         ]
     },
     {
@@ -134,10 +134,10 @@ data_condition = [
         description: "Você não pode ser visto sem a ajuda de magia ou sentido especial",
         reference: "PHB, pg. 293.",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "Para o propósito de se esconder, você é considerado em área de escuridão densa.",
+            "Você ainda pode ser detectado por algum barulho que você faça ou rastros que você deixe.",
+            "Jogadas de ataque contra você sofrem desvantagem",
+            "Você possui vantagem em jogadas de ataque."
         ]
     },
     {
@@ -147,25 +147,25 @@ data_condition = [
         description: "Você não pode fazer nada",
         reference: "PHB, pg. 293.",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Você está incapacitado e não pode se mover ou falar.",
+            "Você falha automaticamente em teste de resistência de Força e Destreza.",
+            "Jogadas de ataque contra você possuem vantagem.",
+            "Qualquer ataque que atinja você é um acerto crítico, se o atacante estiver a 1,5 metro de você."
         ]
     },
     {
         title: "Petrificado",
         icon: "stone-pile",
         subtitle: "Você está transformado em pedra",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
+        description: "Você está transformado, juntamente com todos os objetos não-mágicos que estiver vestindo ou carregando, em uma substância sólida e inanimada (geralmente pedra)",
         reference: "PHB, pg. 293.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "Seu peso é multiplicado por dez, e para de envelhecer.",
+            "Você está incapacitado, não pode se mover ou falar, e não tem ciência de seus arredores.",
+            "Jogadas de ataque contra você possuem vantagem.",
+            "Você falha automaticamente em testes de resistência de Força e Destreza.",
+            "Você tem resistência a todos os tipos de dano.",
+            "Você fica imune a veneno e doenças, embora um veneno ou doença previamente presente em seu sistema seja apenas suspenso, não neutralizado."
         ]
     },
     {
