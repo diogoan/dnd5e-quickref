@@ -133,6 +133,14 @@
 /* ------------------------------------------------------------------------- */
 /* Colors */
 /* ------------------------------------------------------------------------- */
+#section-roll, #section-roll .item-icon {
+    background-color: darkorange;
+    border-color: darkorange;
+}
+#section-roll .text {
+    color: darkorange;
+}
+
 #section-movement, #section-movement .item-icon {
     background-color: maroon;
     border-color: maroon;

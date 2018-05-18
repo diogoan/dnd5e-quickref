@@ -57,6 +57,8 @@ function fill_section(data, parentname, type) {
 }
 
 function init() {
+    fill_section(data_roll_types, "roll-types", "Jogada");
+    fill_section(data_roll_mods, "roll-mods", "Jogada");
     fill_section(data_movement, "basic-movement", "Movimento");
     fill_section(data_action, "basic-actions", "Ação");
     fill_section(data_bonusaction, "basic-bonus-actions", "Ação bônus");
