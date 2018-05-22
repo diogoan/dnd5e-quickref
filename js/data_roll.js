@@ -30,7 +30,7 @@ data_roll_types = [
         icon: "shield-reflect",
         subtitle: "Resistir a alguma ameaça",
         description: "Um teste de resistência representa uma tentativa de resistir a uma magia, uma armadilha, um veneno, uma doença ou uma ameaça similar. ",
-        reference: "PHB, pg. 180.",
+        reference: "PHB, pg. 181.",
         bullets: [
             "Você normalmente não decide fazer um teste de resistência, você é forçado a fazer um, porque seu personagem ou monstro corre risco de sofrer algum mal.",
             "Para fazer um teste de resistência, jogue um d20 e adicione o modificador de habilidade apropriado.",
