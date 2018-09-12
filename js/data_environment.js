@@ -97,7 +97,7 @@ data_environment_cover = [
     {
         title: "Meia cobertura",
         icon: "broken-shield",
-        subtitle: "Mureta, mobília grande",
+        subtitle: "Mureta, mobília grande, criaturas",
         description: "Um alvo tem meia-cobertura quando um obstáculo bloqueia pelo menos metade de seu corpo",
         reference: "PHB, pg. 198.",
         bullets: [
