@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,19 +9,48 @@
     <link rel="stylesheet" type="text/css" href="css/quickref.css">
     <link rel="stylesheet" type="text/css" href="css/icons.css">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:700" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="img/dragon-head.png">
     <!-- Javascript -->
     <script type="text/javascript" src="js/jquery/jquery.min.js" charset="utf-8"></script>
 </head>
+
 <body class="page-background">
     <div class="page fontsize" data-size="fullscreen">
         <div class="main-title">Referência Rápida D&D 5e</div>
-        <div class="description">Este guia apresenta, de maneira resumida e intuitiva, as principais ações e características de um combate em D&D 5e. As referências das páginas em cada descrição referem-se à edição do Livro do Jogador (PHB) traduzida para o português. Esta é uma versão traduzida, adaptada e incrementada do material produzido por <a href="https://github.com/crobi">crobi</a> (para maior fidelidade, algumas descrições foram retiradas diretamente da tradução do Livro do Jogador). A versão original, em inglês, pode ser acessada <a href="https://crobi.github.io/dnd5e-quickref/preview/quickref.html">aqui</a>.
-        <br>
-        <br>
-        Traduzido para o português por <a href="https://github.com/diogoan">diogoan</a>.</div>
+        <div class="description">Este guia apresenta, de maneira resumida e intuitiva, as principais ações e
+            características de um combate em D&D 5e. As referências das páginas em cada descrição referem-se à edição do
+            Livro do Jogador (PHB) traduzida para o português. Esta é uma versão traduzida, adaptada e incrementada do
+            material produzido por <a href="https://github.com/crobi">crobi</a> (para maior fidelidade, algumas
+            descrições foram retiradas diretamente da tradução do Livro do Jogador). A versão original, em inglês, pode
+            ser acessada <a href="https://crobi.github.io/dnd5e-quickref/preview/quickref.html">aqui</a>.
+            <br>
+            <br>
+            Traduzido para o português por <a href="https://github.com/diogoan">diogoan</a>.
+            Com adições de <a href="https://github.com/crdornelles">crdornelles</a>.
+        </div>
+
+        <!-- Abilities section -->
+        <div id="section-ability" class="section-container">
+            <div class="section-title">
+                Habilidades
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    Cada tarefa que um personagem ou monstro pode tentar durante o jogo é coberta por uma das seis
+                    habilidades.
+                </div>
+                <div class="section-row" id="ability-types"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    As perícias são especialidades dos testes de habilidades, usadas em testes mais específicos.
+                </div>
+                <div class="section-row" id="ability-sub-types"></div>
+
+            </div>
+        </div>
+
         <!-- Abilities section -->
         <div id="section-roll" class="section-container">
             <div class="section-title">
@@ -106,7 +136,7 @@
                 <div class="section-row" id="basic-conditions"></div>
             </div>
         </div>
-        
+
         <!-- Environmental section -->
         <div id="section-environment" class="section-container">
             <div class="section-title">
@@ -114,7 +144,8 @@
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    Efeitos que obscurecem a visão podem demonstrar um obstáculo significativo para a maioria das tarefas na aventura.
+                    Efeitos que obscurecem a visão podem demonstrar um obstáculo significativo para a maioria das
+                    tarefas na aventura.
                 </div>
                 <div class="section-row" id="environment-obscurance"></div>
                 <div class="section-row section-subtitle text fontsize">
@@ -162,6 +193,7 @@
     </div>
 
     <!-- Data -->
+    <script type="text/javascript" src="js/data_ability.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_roll.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_movement.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_action.js" charset="utf-8"></script>
@@ -171,4 +203,5 @@
     <script type="text/javascript" src="js/data_environment.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script>
 </body>
+
 </html>
