@@ -133,6 +133,14 @@
 /* ------------------------------------------------------------------------- */
 /* Colors */
 /* ------------------------------------------------------------------------- */
+#section-ability, #section-ability .item-icon {
+    background-color: grey;
+    border-color: grey;
+}
+#section-ability .text {
+    color: grey;
+}
+
 #section-roll, #section-roll .item-icon {
     background-color: darkorange;
     border-color: darkorange;

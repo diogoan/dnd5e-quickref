@@ -57,6 +57,8 @@ function fill_section(data, parentname, type) {
 }
 
 function init() {
+    fill_section(data_ability_types, "ability-types", "Habilidades");
+    fill_section(data_ability_sub_types, "ability-sub-types", "Perícias");
     fill_section(data_roll_types, "roll-types", "Jogada");
     fill_section(data_roll_mods, "roll-mods", "Jogada");
     fill_section(data_movement, "basic-movement", "Movimento");
