@@ -177,5 +177,16 @@ data_condition = [
         bullets: [
             "Você falha automaticamente em qualquer teste de habilidade que requeira o uso da audição."
         ]
+    },
+    {
+        title: "Engolido",
+        icon: "swallow",
+        subtitle: "Você foi engolido",
+        description: "Você foi engolido esta cego e contido",
+        reference: "Aventuras para quinta edição - O Destino Das Hamadríades, pg. 11",
+        bullets: [
+            "Enquanto estiver dentro do estomago, você sofre 3 (1d4 + 1) pontos de dano corrosivo, no turno da criatura que o engoliu.",
+            "Você Pode durante o seu turno realizar uma ação para cortar o estomago do atacante de dentro para fora, se estiver segurando no momento que foi engolida uma arma cortante ou perfurante, consegue sair quando inflingir dano suficiente para matar o atacante.",
+        ]
     }
 ]
